@@ -1,0 +1,10 @@
+bases:
+- ../../base
+
+imageTags:
+  - name: image-name
+    newName: public.ecr.aws/s9h4j4s7/eks-ws-sample-app
+    newTag: latest
+
+patches:
+- deployment.yaml
