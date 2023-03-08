@@ -72,6 +72,8 @@ module "eks" {
     }
   }
 
+  kms_key_administrators = ["*"]
+
   tags = local.tags
 }
 
